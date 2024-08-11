@@ -15,7 +15,7 @@ Summary :
     * Localisation using fusion of 2 perpendicular single point lidars and an IMU
     * PID based path tracking
     * Fuzzy based velocity controller
-    * Capacitance based slosh meeasurement 
+    * Capacitance based slosh measurement 
 * Modelled the hardware AGV prototype using simple pendulum analogy 
     * Estimated the parameters using translational excitation and quick stop strategy 
 * Used the estimated model implement 2nd order Sliding mode controller using Super Twisting Algorithm on the hardware.

@@ -97,7 +97,7 @@
     {
       "title": "3rd Position, ABU Robocon 2020",
       "date": "2020-08-20",
-      "awarder": "ABU(Acia-Pacific Broadcasting Unit)",
+      "awarder": "ABU(Asia-Pacific Broadcasting Unit)",
       "summary": "Developed 2 semi-autonomous Rugby playing robots to complete the ABU Robocon 2020 problem statement"
     },
     {
@@ -157,7 +157,7 @@
       "name": "Physics",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Efficient ML : Decreasing the size of models while harnessing the full potential of hardware where models are deployed ",
+        "Efficient ML : How to efficiently deploy ML Models?",
         "Robotic Intelligence : Decision Making for autonomous agents",
         "Nonlinear Control",
         "Problem Solving"
@@ -166,12 +166,35 @@
   ],
   "projects": [
     {
-      "name": "RL Based ",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "RL Based Slosh Control",
+      "summary": "Analysed the problem of minimising slosh inside a liquid container payload on an AGV",
+      "highlights": ["Used DRL to tune robust Super twisting controller for minimising lateral slosh in a container to surpass SOTA", "Developed a hardware AGV prototype with novel capacitive slosh measurement device","Modelled the hardware prototype and implemented STC controller on it","Trained DDPG based model free slosh controller on hardware model in simulation and fine-tuned it on hardware"],
+      "startDate": "2021-08-01",
+      "endDate": "2022-05-01",
+      "url": "https://kshitijbithel.github.io/projects/1_project/"
+    },
+    {
+      "name": "Design and development of IOT based health monitoring system",
+      "summary": "Designed and developede a hardware vitals of a patient and display them over wifi on a server",
+      "highlights": ["Designed a wearable device to measure heart rate, SPO2, Body temperature and Respiration rate","Developed a server capable of collecting data from multiple patients, displaying it live on a website for remote monitoring and storing it in a database for future analysis"],
+      "startDate": "2021-01-01",
+      "endDate": "2022-06-01"
+    },
+    {
+      "name": "Underwater ROV for inspection of Head race tunnels",
+      "summary": "Developed an underwater ROV for Smart India Hackathon 2020 Hardware Edition hosted by Govt. of India",
+      "highlights": ["Designed an underwater ROV capable of autonomous damage location, debris removal and video feedback","Developed vision-based crack detection algorithm, a tracker-based underground tunnel localization system, a P-D based depth controller using pressure sensor feedback and implemented it on a hardware prototype"],
+      "startDate": "2020-04-01",
+      "endDate": "2020-08-01",
+      "url": "https://github.com/KSHITIJBITHEL/Underwater-ROV"
+    },
+    {
+      "name": "Rugby Playing robots",
+      "summary": "Built 2 semi-autonomous rugby playing robots for ABU Robocon 2020",
+      "highlights": ["Built 2 robots capable of picking, throwing, catching, placing and kicking rugby balls while communicating with each other to complete the problem statement in the fastest manner","Designed paths using quadratic spline interpolation, performed localization using sensor fusion of perpendicular encoders, perpendicular lasers and gyroscope, implemented fuzzy logic controller for path tracking","Designed dual-layer PCB for actuator control and sensor interfacing"],
+      "startDate": "2019-08-01",
+      "endDate": "2020-03-01",
+      "url": "https://kshitijbithel.github.io/projects/7_project/"
     }
   ]
 }
