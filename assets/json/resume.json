@@ -1,12 +1,11 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Kshitij Bithel",
+    "label": "Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "kshitijbithel@gmail.com",
+    "url": "https://kshitijbithel.github.io/",
+    "summary": "A tech enthusiast born and raised in India, currently working in semiconductor industry ",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -24,134 +23,126 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Qualcomm Technologies",
+      "position": "DFT Engineer",
+      "startDate": "2022-07-04",
+      "endDate": "today",
+      "summary": "Generating and validating Logic-BIST patterns for SOCs to be used in safety-critical applications like Automotive and Healthcare.",
+      "highlights": ["Complying with ASIL-B safety level proposed in ISO26262 standard","Working with different DFT Standards : 1149.1(JTAG Boundary scan), 1687(IJTAG), P1500(Wrapper Serial Port)"]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Swaayatt Robots",
+      "position": "Summer Internship",
+      "startDate": "2020-05-20",
+      "endDate": "2020-07-20",
+      "summary": "Worked on Controller Design and simulation for lateral vehicle control (Path Tracking) using CARLA Simulator",
+      "highlights": ["Applied LQR, Pure Pursuit, and Stanley control algorithms based on the Ackerman steering dynamics","Extended the controllers to be adaptive using Reinforcement Learning Algorithms(Q-learning, DQN, DDPG)"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Indian Institute of Technology, Roorkee, India",
+      "location": "Roorkee, India",
+      "url": "https://www.iitr.ac.in",
+      "area": "Electrical Engineering",
+      "studyType": "B.Tech.",
+      "startDate": "2018-07-26",
+      "endDate": "2022-05-20",
+      "score": "8.46"
+    },
+    {
+      "institution": "Delhi Public School(DPS) Ranipur, Haridwar",
+      "location": "Haridwar, India",
+      "url": "https://dpshardwar.com",
+      "studyType": "High School",
+      "startDate": "2008-03-20",
+      "endDate": "2018-04-20",
+      "score": "96.2%"
     }
   ],
-  "awards": [
+  "achievements": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "title": "Singhal's Tech for Society Award",
+      "date": "2023-04-06",
+      "awarder": "IIT Roorkee",
+      "url": "",
+      "summary": "The award is given to final year B. Tech student(s) of IIT Roorkee for the work on meaningful, relevant, innovative, impactful and commercially viable project as part of their final year curriculum"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "title": "Student Innovation Grant",
+      "date": "2021-10-26",
+      "awarder": "ARTPARK @ IISc Bangalore",
+      "url": "https://www.facebook.com/media.eed.iitr/posts/we-are-proud-that-our-ug-final-year-students-kshitij-bithel-and-keshav-dixit-wer/175003138155192/?locale=hi_IN",
+      "summary": "The grant of 4L₹ included Hardware costs and monthly stipend for students to pursue novel research in AI, Robotics, and Autonomous Systems for the Final year project "
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "title": "Chanakya UG Fellowship",
+      "date": "2021-07-26",
+      "awarder": "Technology Innovation Hub(TIH), IIT Roorkee",
+      "url": "https://www.linkedin.com/posts/media-outreach-electrical-engineering-department-iit-roorkee-18b567214_awards-achievement-electricalengineering-activity-6837278688128577536-rZeL?utm_source=share&utm_medium=member_desktop",
+      "summary": "10 month fellowship for undergraduate students to pursue research in Cyber-Physical Systems"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "title": "Winner, Smart India Hackathon(SIH) 2020, Hardware Edition",
+      "date": "2020-12-20",
+      "awarder": "Ministry of Power, Govt. of India",
+      "summary": "Built an underwater ROV for unmanned inspection of Head Race Tunnels in Hydroelectric power plants"
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
+      "title": "DST-1600-EED Grant under SATYAM(Science and Technology of Yoga and Medicine)",
+      "date": "2020-10-21",
+      "awarder": "Dept. of Science & Technology (D.S.T.), Govt. of India",
+      "summary": "Grant for developement of IOT Based Health-Monitoring System to Study of Effect of Yoga and Meditation on COVID-19 Related Health Parameters"
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "title": "3rd Position, ABU Robocon 2020",
+      "date": "2020-08-20",
+      "awarder": "ABU(Acia-Pacific Broadcasting Unit)",
+      "summary": "Developed 2 semi-autonomous Rugby playing robots to complete the ABU Robocon 2020 problem statement"
+    },
+    {
+      "title": "Anand Gupta Memorial Award 2017-18",
+      "date": "2018-01-20",
+      "awarder": "DPS Ranipur, Haridwar",
+      "summary": "Awarded for outstanding performance in Physics in grade 11th and 12th"
+    },
+    {
+      "title": "NTSE Scholarship",
+      "date": "2017-03-20",
+      "awarder": "NCERT, Govt. of India",
+      "summary": "Scholarship awarded to 1500 students all over India to pursue STEM education in Indian Colleges"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Deep Reinforcement Learning based Super Twisting Controller for Liquid Slosh Control Problem",
+      "publisher": "IFAC-PapersOnLine",
+      "releaseDate": "2022-03-02",
+      "url": "https://doi.org/10.1016/j.ifacol.2022.04.120",
+      "summary": "The work proposes an improvement of the already existing SOTA Super Twisting controller(a 2nd order Sliding mode controller) using Deep RL. It does so by modelling the sloshing phenomenon and numerically simulating the DRL algorithm to control sloshing during a 1-D movement of the container. This is a simulation only work which was further extended to a hardware AGV for my final year project"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Programming Languages",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python, MATLAB, C++, Verilog"
+      ]
+    },
+    {
+      "name": "Sowtwares/Tools",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "MATLAB & Simulink, Arduino, EDA Tools (VCS, Verdi, Vivado, Tessent)"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Hindi",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -166,30 +157,16 @@
       "name": "Physics",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Efficient ML : Decreasing the size of models while harnessing the full potential of hardware where models are deployed ",
+        "Robotic Intelligence : Decision Making for autonomous agents",
+        "Nonlinear Control",
+        "Problem Solving"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
+      "name": "RL Based ",
       "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
       "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
       "startDate": "2018-01-01",

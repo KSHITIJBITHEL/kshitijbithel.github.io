@@ -19,5 +19,5 @@ social: true # includes social icons at the bottom of the page
 ---
 
 Hi, I am a Tech Enthusiast interested in anything Math and Physics.
-Proffessionally, I am an electrical engineer working in the semiconductor industry.
-Other than that, I like to drive and build stuff, you can find some of my previous works under the Projects page
+<br> Proffessionally, I am an electrical engineer working in the semiconductor industry.
+<br> Other than that, I like to drive and build stuff, you can find some of my previous works under the Projects page
