@@ -5,67 +5,28 @@ description: B.Tech. Final Yr. Project
 img: assets/img/project_1.gif
 importance: 1
 category: work
-related_publications: true
 ---
 
 Summary : 
-* 
+* Started by tuning hyperparameters of STC controller using RL in numerical simulations, surpassed the SOTA results
+* Secured a grant from Artpark @ IISc Bangalore to realize the research on hardware 
+* Developed a Hardware AGV prototype with following features 
+    * 4 wheel holonomic meccanum drive 
+    * Localisation using fusion of 2 perpendicular single point lidars and an IMU
+    * PID based path tracking
+    * Fuzzy based velocity controller
+    * Capacitance based slosh meeasurement 
+* Modelled the hardware AGV prototype using simple pendulum analogy 
+    * Estimated the parameters using translational excitation and quick stop strategy 
+* Used the estimated model implement 2nd order Sliding mode controller using Super Twisting Algorithm on the hardware.
+* Used the estimated model to train RL agent to optimise STC parameters in simulation and applied the learned parameters to the hardware
+* Used the estimated model to numerically train DDPG based model-free controller in simulation
+* Applied the trained model-free controller on the hardware and fine-tuned its hyperparameters on hardware for some episodes  
+* Received the Singhal’s Tech for society award for most innovative, impactful and commercially viable bachelor’s thesis with a cash prize of 50k     
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+<br>
+Here you can find a video(mid-term review) of us explaining the task
+<iframe width="560" height="315" src="https://www.youtube.com/embed/agWiQ-R_Qsw" frameborder="0" allowfullscreen></iframe>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+<br><br>
+Also, for more details, please check out the final [thesis](https://kshitijbithel.github.io/assets/pdf/Bachelors_Thesis.pdf)
