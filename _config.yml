@@ -174,7 +174,10 @@ external_sources:
     posts:
       - url: https://kbithel.medium.com/audio-classification-for-cough-detection-11c1a9854d2b?source=user_profile---------0---------------------------- 
         published_date: 2022-02-14
-
+  - name: notion.com
+    posts:
+      - url: https://www.notion.so/1169bcd0453080f886c1ebf13cfd7de6?v=1169bcd0453081a69a00000cd41dd51a&source=copy_link 
+        published_date: 2025-02-14
 # -----------------------------------------------------------------------------
 # Newsletter
 # -----------------------------------------------------------------------------
