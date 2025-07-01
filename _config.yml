@@ -137,6 +137,11 @@ blog_description: Need to write some more !
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
+blog_name: Reads Tracker/Summary
+blog_description: A Summary of research papers/articles read by me over time (Ps - currently my laziness dominates updating it regularly)
+permalink: https://www.notion.so/1169bcd0453080f886c1ebf13cfd7de6?v=1169bcd0453081a69a00000cd41dd51a&source=copy_link
+lsi: false # produce an index for related posts
+
 # Pagination
 pagination:
   enabled: true
@@ -174,10 +179,7 @@ external_sources:
     posts:
       - url: https://kbithel.medium.com/audio-classification-for-cough-detection-11c1a9854d2b?source=user_profile---------0---------------------------- 
         published_date: 2022-02-14
-  - name: notion.com
-    posts:
-      - url: https://www.notion.so/1169bcd0453080f886c1ebf13cfd7de6?v=1169bcd0453081a69a00000cd41dd51a&source=copy_link 
-        published_date: 2025-02-14
+
 # -----------------------------------------------------------------------------
 # Newsletter
 # -----------------------------------------------------------------------------
